@@ -9,9 +9,8 @@ Build a workflow and dashboard to **automate invoice tracking**:
 ## Project Overview
 This project uses **Apache Airflow** to orchestrate workflows that:
 1. **Extract invoice data** – client, start/end dates, email, amount, invoice ID (tested using a Jupyter Notebook)  
-2. **Extract invoice data** – client name, start date, end date, email, amount, and invoice ID  
-3. **Load the data** into a **PostgreSQL database**  
-4. **Visualize** invoices in a **dashboard** for easy monitoring  
+2. **Load the data** into a **PostgreSQL database**  
+3. **Visualize** invoices in a **dashboard** for easy monitoring 
 ![Invoice Tracker Dashboard](Invoices.png)
 
 ## How to Run Locally
@@ -36,3 +35,4 @@ Businesses can quickly identify overdue invoices, upcoming payments, and visuali
 ## Technicals Used:
 - **Jupyter Notebook** – testing PDF invoice data extraction ([Pdf_Extraction.ipynb](Invoice-Tracker/Pdf_Extraction.ipynb)
 - **Apache Airflow** – workflow orchestration ([Invoices_extraction.py](Invoice-Tracker/dags/Invoices_extraction.py)) 
+- **Power BI Workbook** – [Download Invoices.pbix](Invoice-Tracker/Invoices.pbix) 
