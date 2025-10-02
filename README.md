@@ -8,6 +8,29 @@ Build a workflow and dashboard to **automate invoice tracking**:
 
 ## Project Overview
 This project uses **Apache Airflow** to orchestrate workflows that:
-1. **Extract invoice data** – client name, start date, end date, email, amount, and invoice ID  
-2. **Load the data** into a **PostgreSQL database**  
-3. **Visualize** invoices in a **dashboard** for easy monitoring  
+1. **Extract invoice data** – client, start/end dates, email, amount, invoice ID (tested using a Jupyter Notebook)  
+2. **Extract invoice data** – client name, start date, end date, email, amount, and invoice ID  
+3. **Load the data** into a **PostgreSQL database**  
+4. **Visualize** invoices in a **dashboard** for easy monitoring  
+![Invoice Tracker Dashboard](Invoices.png)
+
+## How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone git@github.com:IamGeorge254/Invoice-Tracker.git
+cd Invoice-Tracker
+```
+
+2. Start Airflow using Docker Compose:
+
+```bash
+docker-compose up -d
+```
+
+## Impact / Goal
+This workflow and dashboard **save time and reduce errors** by automating invoice tracking.  
+Businesses can quickly identify overdue invoices, upcoming payments, and visualize trends, improving financial management.
+
+## Technicals Used:
