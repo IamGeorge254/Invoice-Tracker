@@ -34,3 +34,4 @@ This workflow and dashboard **save time and reduce errors** by automating invoic
 Businesses can quickly identify overdue invoices, upcoming payments, and visualize trends, improving financial management.
 
 ## Technicals Used:
+- **Jupyter Notebook** – testing PDF invoice data extraction (`Pdf_Extraction.ipynb`) 
